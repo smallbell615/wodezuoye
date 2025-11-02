@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>091王储君</title>
+</head>
+    <style>
+         *{
+            list-style: none;
+            text-decoration: none;
+            font-size: 20px;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        .yijihezi{
+            width:900px;
+            height: 400px;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        .yijiliebiao>li{
+            background-color:rgb(173, 213, 162);
+            width: 165px;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            margin: 65px 50px;
+            border-radius: 5px;
+            display: flex;
+            animation: bianse 3000ms ease infinite alternate forwards;
+        }
+        .erjihezi1{
+            position: absolute;
+            top: 15px;
+            left: 825px;
+            width: 200px;
+            height:140px;
+            background-color: #779649;
+            border-radius: 5px;
+            display: none;
+            animation: bianse 3000ms ease infinite alternate forwards;
+        }
+        .erjihezi2{
+            position: absolute;
+            top: 135px;
+            left: 825px;
+            width: 150px;
+            height:140px;
+            background-color: #779649;
+            border-radius: 5px;
+            display: none;
+            animation: bianse 3000ms ease infinite alternate forwards;
+        }
+        .erjihezi3{
+            position: absolute;
+            top: 250px;
+            left: 825px;
+            width: 150px;
+            height:140px;
+            background-color: #779649;
+            border-radius: 5px;
+            display: none;
+            animation: bianse 3000ms ease infinite alternate forwards;
+        }
+        .erjiliebiao1,.erjiliebiao2,.erjiliebiao3
+        {
+            padding: 0px;
+        }
+        .erjiliebiao1>li{
+            display: flex;
+            justify-content:center;
+            list-style: none;
+            margin:15px;
+        }
+        .erjiliebiao2>li{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 12px;
+        }
+        .erjiliebiao3>li{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 12px;
+        }
+        .yijiliebiao>li:hover>.erjihezi1{
+            display: block;
+        }
+        .yijiliebiao>li:hover>.erjihezi2{
+            display: block;
+        }
+        .yijiliebiao>li:hover>.erjihezi3{
+            display: block;
+        }
+        @keyframes bianse {
+            0%{
+                background-color:rgb(173, 213, 162);
+            }
+            50%{
+                background-color: #779649;
+            }
+            100%{
+                background-color:#8AAEA2;
+            }
+        }
+    </style>
+<body>
+    <div class="yijihezi">
+        <ul class="yijiliebiao">
+            <li>
+                <a href="#">PD的蛋生</a>
+                <div  class="erjihezi1">
+                    <ul class="erjiliebiao1">
+                        <li><a href="#">02可怜的小猫</a></li>
+                        <li><a href="#">04“生”乐大师</a></li>
+                        <li><a href="#">21萌呀神兽</a></li>
+                    </ul>
+                </div>           
+            </li>
+            <li>
+                <a href="#">星期五练习生</a>
+                <div  class="erjihezi2">
+                    <ul class="erjiliebiao2">
+                        <li><a href="#">嘻  游  记</a></li>
+                        <li><a href="#">睡 衣 派 对</a></li>
+                        <li><a href="#">最受欢迎的你</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">冬夜童话集</a> 
+                <div  class="erjihezi3">
+                    <ul class="erjiliebiao3">
+                        <li><a href="#">冬夜03</a></li>
+                        <li><a href="#">冬夜04</a></li>
+                        <li><a href="#">冬夜07</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>    
+</body>
+</html>
